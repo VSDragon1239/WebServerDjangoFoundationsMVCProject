@@ -1,0 +1,14 @@
+<!-- app/templates/about.html -->
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}About{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/about.css' %}">
+{% endblock %}
+
+{% block content %}
+<h2>About Us</h2>
+<p>This page contains information about the project.</p>
+{% endblock %}
