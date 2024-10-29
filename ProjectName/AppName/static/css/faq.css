@@ -3,6 +3,9 @@ body {
     background-color: #f7e0fa;
 }
 
+:root {
+    --global-color-element: rgb(194, 0, 149);
+}
 h2 {
     color: #001479;
 }
