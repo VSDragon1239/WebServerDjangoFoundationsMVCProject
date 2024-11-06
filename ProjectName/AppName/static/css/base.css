@@ -1,7 +1,7 @@
 /* /static/css/base.css */
 @font-face {
     font-family: "Jura";
-    src: url("fonts/Jura.ttf");
+    src: url("../fonts/Jura.ttf");
 }
 :root {
     --global-color-element: rgb(0, 147, 194);
